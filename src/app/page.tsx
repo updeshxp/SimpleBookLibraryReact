@@ -6,8 +6,10 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          Welcome to the Book Library &nbsp;
+          <code className={styles.code}>
+            {"<"}Currently in Development{">"}
+          </code>
         </p>
         <div>
           <a
@@ -15,28 +17,16 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className={styles.logo}
+              src="/next.svg"
+              alt="Next.js Logo"
               width={100}
               height={24}
               priority
             />
           </a>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
       </div>
 
       <div className={styles.grid}>
