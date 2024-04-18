@@ -1,0 +1,33 @@
+const books = [
+    {
+      book_id: book[0].id,
+      name: 'Book0_Name',
+      published_year: '2013',
+      book_code: '0006486142',
+      country_origin: 'India',
+      desc: 'The Mad Ship,,Robin Hobb',
+      genre: 'fiction',
+      type: 'Journal',
+      amount: 15795,
+      status: 'pending',
+      tags: ['fiction', 'India', 'Journal'],
+      date_added: '2022-12-06',
+      date_modified: '2023-07-02',
+    },
+    {
+      book_id: book[1].id,
+      name: 'Book1_Name',
+      published_year: '2021',
+      book_code: '0006754899',
+      country_origin: 'Germany',
+      desc: '',
+      genre: 'non-fiction',
+      type: 'Book',
+      amount: 20348,
+      status: 'pending',
+      tags: ['nonfiction', 'Germany', 'Book'],
+      date_added: '2022-11-14',
+      date_modified: '2023-07-12',
+    },
+    // ...
+  ];
