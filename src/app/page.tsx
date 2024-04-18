@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Welcome to the Book Library &nbsp;
+          Welcome to the {process.env.appName} &nbsp;
           <code className={styles.code}>
             {"<"}Currently in Development{">"}
           </code>

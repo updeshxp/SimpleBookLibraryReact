@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {env: {
+    appName: 'Book Library',
+  },};
 
 export default nextConfig;
